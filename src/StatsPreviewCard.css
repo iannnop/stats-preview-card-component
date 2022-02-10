@@ -1,0 +1,115 @@
+/* Components */
+
+.app__statsPreviewCard {
+    display: inline-block;
+    background-color: var(--color-dark-desaturated-blue);
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 0 2rem;
+    padding-bottom: 0.5rem;
+    max-width: 654px
+}
+
+.app__statsPreviewCard-mobile-header {
+    max-width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.app__statsPreviewCard-desktop-header {
+    display: none;
+}
+
+.app__statsPreviewCard-info {
+    margin: 2rem 1.5rem;
+}
+
+.app__statsPreviewCard-stat {
+    margin: 2rem;
+}
+
+
+/* Typography */
+
+.app__statsPreviewCard header h1 {
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.app__statsPreviewCard header h1 b {
+    color: var(--color-soft-violet);
+}
+
+.app__statsPreviewCard header p {
+    font-family: var(--font-inter);
+    color: var(--color-paragraph-white);
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1.7em;
+    opacity: 0.9;
+}
+
+.app__statsPreviewCard-stat h2 {
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+}
+
+.app__statsPreviewCard-stat p {
+    font-family: var(--font-lexend-deca);
+    color: var(--color-statHeading-white);
+    font-size: 0.8em;
+    font-weight: 300;
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Desktop Components */
+
+    .app__statsPreviewCard {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1100px;
+        max-height: 446px;
+        text-align: left;
+    }
+    .app__statsPreviewCard-mobile-header {
+        display: none;
+    }
+    .app__statsPreviewCard-desktop-header {
+        display: inline-block;
+        max-width: 540px;
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+    .app__statsPreviewCard-info {
+        margin: 5rem 6rem 5rem 4rem;
+        padding: 0;
+        display: grid;
+        align-content: space-between;
+    }
+    .app__statsPreviewCard-stats {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 4rem;
+    }
+    .app__statsPreviewCard-stat {
+        margin: 0;
+    }
+
+    /* Desktop Typography */
+
+    .app__statsPreviewCard header h1 {
+        font-size: 2.25em;
+    }
+
+    .app__statsPreviewCard header p {
+        opacity: 1;
+    }
+}
