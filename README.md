@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor: Solution URL]()
-- [Vercel: Live Site URL]()
+- [Frontend Mentor: Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-with-react-9YHMflE9I)
+- [Vercel: Live Site URL](https://stats-preview-card-component-psi-three.vercel.app/)
 
 ## My process
 
