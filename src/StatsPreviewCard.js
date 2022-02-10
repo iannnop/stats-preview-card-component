@@ -5,7 +5,7 @@ import './StatsPreviewCard.css'
 
 const StatsPreviewCard = () => {
   return (
-    <main className='app__statsPreviewCard'>
+    <div className='app__statsPreviewCard'>
       <img src={images.mobileHeader} alt='mobile header' className='app__statsPreviewCard-mobile-header'/>
       <img src={images.desktopHeader} alt='desktop header' className='app__statsPreviewCard-desktop-header'/>
       <div className='app__statsPreviewCard-info'>
@@ -28,7 +28,7 @@ const StatsPreviewCard = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
 
